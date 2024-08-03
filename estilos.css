@@ -1,0 +1,338 @@
+
+/*
+    O
+   /|\
+   / \
+ ©Saimon®
+*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+
+body {
+    background: #000;
+    font-family: roboto;
+    padding: 20px;
+}
+
+div {
+    width: 647px;
+    overflow: hidden;
+    position: relative;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    width: 647px;
+    height: 1294px;
+}
+
+.arriba {
+    margin: 0;
+    height: 145px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.arriba span {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.arriba .img {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 155px ;
+    padding-right: 138px;
+}
+
+.arriba .img img {
+    margin: 0;
+    padding: 0;
+    height: 110px;
+}
+
+.uno {
+    width: 90px;
+}
+
+.dos {
+    width: 160px;
+}
+
+.verif{
+    position: absolute;
+    background: none;
+    top: 0;
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+}
+
+.verif .imgdoss {
+    width: 75px;
+    
+}
+
+
+.contra {
+    margin: 0;
+    padding: 0;
+    height: 49px;
+    padding-top: 8px;
+    background-color: #03AAB2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.fondo {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+}
+
+.unoo {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 20px 0px;
+    display: flex;
+
+}
+
+.unoo img {
+    height:270px;
+    margin-left: 86px;
+    margin-right: 90px;
+}
+
+.unoo span{
+    display: flex;
+    flex-direction: column;
+    font-size: 23px;
+    font-weight: bold;
+   justify-items: center;
+   align-items: center;
+   text-align: center;
+   line-height: 1.5;
+}
+
+.unoo span span {
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+.unoo span img {
+    height: 190px;
+    margin: 0 20px;
+    padding: 0;
+}
+
+.form {
+    background-color: transparent;
+    width: 100%;
+    margin: 0;
+    margin-top: 20px;
+    padding: 0;
+    top: 0;
+    left: 0;
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.form .pr {
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+.form .tl {
+    margin-top: 2px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.es {
+    flex-direction: column;
+    margin-top: 41px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.es img {
+    display: flex;
+    justify-content: space-between;
+    right: 0;
+    height: 145px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.es .divspa {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 10px 0px 10px 20px;
+}
+
+.es .divspa ul {
+    margin: 0px;
+    font-weight: 500;
+}
+
+.es .divspa ul li {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.abajo {
+    display: flex;
+    justify-content: space-between;
+    align-content:  center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.abajo span {
+    display: flex;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.abuno {
+    margin-left: 40px;
+}
+
+.abdos {
+    margin-right: 50px;
+}
+
+#FORMULARIO {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex ;
+    flex-direction: column;
+    background-color: none;
+    outline: 5px solid rgba(190, 190, 190, 0.444);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 40px;
+    color: rgba(190, 190, 190, 0.822);
+}
+
+.FORMUALRIO2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.FORMUALRIO2 input {
+    margin: 13px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: rgba(190, 190, 190, 0.922);
+    outline: 5px solid rgba(190, 190, 190, 0.444);
+    background-color: #000;
+    border: none;
+    font-weight: bold;
+}
+
+.FORMUALRIO2 input:focus {
+    outline: 5px solid rgba(190, 190, 190, 0.444);
+    border: none;
+}
+
+#contra_enviar {
+    margin: 13px;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
+    color: rgba(190, 190, 190, 0.922);
+    outline: 5px solid rgba(190, 190, 190, 0.444);
+    background-color: #000;
+    border: none;
+    font-weight: bold;
+    background-color: rgba(190, 190, 190, 0.444) !important;
+    color: #fff !important;
+    transition: all .5s;
+}
+
+#contra_enviar:hover {
+    transform: scaleX(.9);
+    border: none;
+    outline:5px solid rgba(190, 190, 190, 0.444) ;
+    cursor: pointer;
+}
+
+
+
+#lamejorimahe {
+    z-index: 999999;
+}
+
+#firmaaa {
+    box-sizing: border-box;
+    position: absolute;
+    top: 225px;
+    height: 80px;
+    left: 89px;
+    overflow: hidden;
+    width: 160px;
+    text-align: center;
+    font-family: 'Fasthand', cursive;
+    font-size: 35px;
+    z-index: 9999999;
+    transform: rotate(358deg);
+}
+
+#imgprueb {
+    object-fit: cover;
+    position: absolute;
+    height: 220px;
+    width: 164px;
+}
+
+.drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px;
+}
+.drop-zone.dragover {
+    background-color: #f0f0f0;
+}
+#file-input {
+    display: none;
+}
