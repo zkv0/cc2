@@ -336,3 +336,11 @@ div {
 #file-input {
     display: none;
 }
+
+
+@media (max-width: 700px) {
+    #FORMULARIO {
+        left: 0;
+        top: 180vh;
+    }
+}
